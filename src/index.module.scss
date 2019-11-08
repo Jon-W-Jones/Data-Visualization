@@ -1,0 +1,17 @@
+.test {
+    color: pink;
+}
+.toolTip {
+    font-size: 16px;
+    position: absolute;
+    background: purple;
+    color: white;
+    padding: 0px 10px;
+}
+.circles {
+    &:hover {
+        fill: orange;
+        fill-opacity: .6;
+        cursor: pointer;
+    }
+}
